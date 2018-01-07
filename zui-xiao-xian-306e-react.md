@@ -31,6 +31,8 @@ import { render } from 'react-dom'
 render(<h2>こんにちは世界<h2/>, document.getElementById('root'))
 ```
 
-
+### render() について
+`import { render } from 'react-dom'` で読み込んだものを早速使う。
+`render(JSX, target)`
 
 
