@@ -65,7 +65,4 @@ const reactElement = (
     <p>body</p>
   </div>
 )
-
-
-
 ```
