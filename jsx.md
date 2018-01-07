@@ -35,3 +35,11 @@ const reactElement = <h2>こんにちは世界</h2>
 ```js
 render(reactElement, document.getElementById('root'))
 ```
+
+## reactElement は単なる JavaScript Object
+コンソールで表示するとわかるが、単なるオブジェクト。これを render() が解釈して、本当の HTML に変換して、出力している。
+
+```js
+console.log(reactElement)
+```
+
