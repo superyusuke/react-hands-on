@@ -52,3 +52,20 @@ const returnStrings = () => {
 const reactElement = <h2>returnStrings()</h2>
 ```
 
+## JSX は一つのタグしかだめ(子要素に複数タグがあるのはOK)
+
+```js
+//ダメ
+const reactElement = <h2>title</h2><p>body</p>
+
+// OK
+const reactElement = (
+  <div>
+    <h2>title</h2>
+    <p>body</p>
+  </div>
+)
+
+
+
+```
