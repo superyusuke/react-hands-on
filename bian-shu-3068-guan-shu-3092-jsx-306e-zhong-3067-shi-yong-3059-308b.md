@@ -36,4 +36,13 @@ const title = 'こんにちは世界'
 const reactElement = <h2>{title}</h2>
 ```
 
+## {} の中は、JavaScript として認識される
+
+{} の中は、JavaScript として認識されるので、関数も実行できる。
+
+```js
+const reactElement = <h2>Math.random()</h2>
+```
+
+
 
