@@ -1,6 +1,6 @@
 # 最小限の React Application の実装
 
-　[動画](https://youtu.be/Gm4cpigN0bg)
+[動画](https://youtu.be/Gm4cpigN0bg)
 
 ## 必要のないものを消す
 
@@ -11,7 +11,13 @@ CodeSandBox で React を選んで起動した後に、必要のないファイ�
 
 ## 最小限の React App を実装する
 
+ES2015\(ES6\) の記法である `import` を使って、javascript のモジュールを `index.js` の中で使えるようにするために、読み込む。\`import from 対象のライブラリ\`
 
+```js
+// index.js
+import React from 'react'
+import { render } from 'react-dom'
+```
 
 
 
