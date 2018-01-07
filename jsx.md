@@ -28,6 +28,5 @@ JSX は React がコンパイルして、JavaScript のオブジェクトに変�
 
 ```js
 const reactElement = <h2>こんにちは世界</h2>
-
 ```
 
