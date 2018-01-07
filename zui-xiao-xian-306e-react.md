@@ -46,3 +46,5 @@ render(JSX, target)
 render(<h2>こんにちは世界<h2/>, document.getElementById('root'))
 ```
 
+
+
