@@ -12,12 +12,14 @@ const returnStrings = val => {
 
 const reactElement = (
   <div>
-    <h2>{returnStrings('これが渡した引数です')}</h2>
+    <h2>{title}</h2>
     <p>{body}</p>
+    <p>{returnStrings('これが渡した引数です')}</p>
   </div>
 )
 
 console.log(reactElement)
 
 render(reactElement, document.getElementById('root'))
+
 ```
