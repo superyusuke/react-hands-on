@@ -11,7 +11,7 @@ CodeSandBox で React を選んで起動した後に、必要のないファイ�
 
 ## 最小限の React App を実装する
 
-ES2015\(ES6\) の記法である `import` を使って、javascript のモジュールを `index.js` の中で使えるようにするために、読み込む。\( \`import\` に関しては後述\)
+ES2015\(ES6\) の記法である `import` を使って、javascript のモジュールを `index.js` の中で使えるようにするために、読み込む。( `import` に関しては後述\)
 
 ```js
 // index.js
