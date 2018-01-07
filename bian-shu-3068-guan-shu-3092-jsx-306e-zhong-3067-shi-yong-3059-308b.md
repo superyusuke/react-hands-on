@@ -1,6 +1,6 @@
 # 変数と関数を JSX  の中で使用する
 コード: https://codesandbox.io/s/k56vymvor
-動画: Use variable and function in JSX
+動画: https://youtu.be/ZPhLpWWUZQM
 
 ```js
 import React from 'react'
