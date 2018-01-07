@@ -31,7 +31,6 @@ render(reactElement, document.getElementById('root'))
 
 ```js
 const title = 'こんにちは世界'
-
 const reactElement = <h2>{title}</h2>
 ```
 
