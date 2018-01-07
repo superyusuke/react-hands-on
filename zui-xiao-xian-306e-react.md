@@ -21,5 +21,16 @@ import React from 'react'
 import { render } from 'react-dom'
 ```
 
+## 読み込んだ render 関数を使って、React App を実行する
+
+```js
+// index.js
+import React from 'react'
+import { render } from 'react-dom'
+
+render(<h2>こんにちは世界<h2/>, document.getElementById('root'))
+```
+
+
 
 
