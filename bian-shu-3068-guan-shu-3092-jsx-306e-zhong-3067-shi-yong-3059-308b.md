@@ -44,7 +44,7 @@ const reactElement = <h2>{title}</h2>
 const reactElement = <h2>Math.random()</h2>
 ```
 
-```
+```js
 const returnStrings = () => {
   return '返された文字列です'
 }
