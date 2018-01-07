@@ -2,6 +2,8 @@
 
 [動画](https://youtu.be/Gm4cpigN0bg)
 
+[CodeSandox](https://codesandbox.io/s/3458qlzj4q)
+
 ## 必要のないものを消す
 
 CodeSandBox で React を選んで起動した後に、必要のないファイル、コードを削除する。
