@@ -29,8 +29,11 @@ render(reactElement, document.getElementById('root'))
 
 ## 変数を使うためには使うためには　{} で囲む
 
+{} で囲んで、変数を入れれば JS の変数として認識される。
+
 ```js
 const title = 'こんにちは世界'
 const reactElement = <h2>{title}</h2>
 ```
+
 
