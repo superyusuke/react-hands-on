@@ -30,3 +30,8 @@ JSX は React がコンパイルして、JavaScript のオブジェクトに変�
 const reactElement = <h2>こんにちは世界</h2>
 ```
 
+なのでその値を、render()に与えて、使用可能。
+
+```js
+render(reactElement, document.getElementById('root'))
+```
