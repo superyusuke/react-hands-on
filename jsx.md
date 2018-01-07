@@ -1,7 +1,8 @@
 # JSX と React Element について
 
-https://codesandbox.io/s/mzw6xomm59
-https://youtu.be/-8gRu19JTnM
+コード: https://codesandbox.io/s/mzw6xomm59
+
+動画: https://youtu.be/-8gRu19JTnM
 
 ```js
 import React from 'react'
