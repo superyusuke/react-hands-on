@@ -41,7 +41,7 @@ const RenderElement = () => {
 
 ## Input を受け取る
 
-ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component としてを作成して見ましょう。
+ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component としてを作成してみましょう。
 
 ```js
 import React from 'react'
