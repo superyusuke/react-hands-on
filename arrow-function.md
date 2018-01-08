@@ -1,4 +1,7 @@
-# Arrow function
+# Arrow function1
+
+コード: https://codesandbox.io/s/9lk849v4rr
+動画: https://youtu.be/t8nA8N7QuMY
 
 Arrow function は　ES2015 以降の関数を定義するためのシンタックス。
 以下は、ほぼ同じ効果。
@@ -28,8 +31,6 @@ const returnStrings3 = val => {
   const name = 'Nakanishi'
   return val + name
 }
-
-
 
 // 伝統的なファンクションの宣言
 const returnStrings4 = function(val) {
