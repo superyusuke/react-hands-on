@@ -4,7 +4,8 @@
 動画: https://youtu.be/sginHtoyza4 
 
 ```js
-//hello.js
+// hello.js
+// export する側
 
 import React from 'react'
 
@@ -25,6 +26,7 @@ export const Hello4 = () => <h2>hello4</h2>
 
 ```js
 // index.js
+// 出力する側
 
 import React from 'react'
 import { render } from 'react-dom'
