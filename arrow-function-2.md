@@ -14,14 +14,15 @@ const renderReactElement2 = (val, no) => {
 }
 
 // 引数として配列を受け取って、それを元に複数の ReactElement を返す
+
+const array = ['tom', 'ken', 'jessy', 'catharine']
+
 const renderReactElement3 = array => {
   // map については後述
   return array.map(item => {
     return <div>{item}</div>
   })
 }
-
-const array = ['tom', 'ken', 'jessy', 'catharine']
 
 const reactElement = <div>{renderReactElement3(array)}</div>
 
