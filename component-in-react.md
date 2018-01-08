@@ -39,7 +39,7 @@ const RenderElement = () => {
 // <RenderElement />
 ```
 
-ファンクショナルコンポーネント
+## ファンクショナルコンポーネント
 
 ```js
 import React from 'react'
@@ -66,7 +66,7 @@ render(
   document.getElementById('root')
 )
 ```
-
+aaa
 
 ```js
 import React from 'react'
