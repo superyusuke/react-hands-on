@@ -26,7 +26,6 @@ export const Hello4 = () => <h2>hello4</h2>
 ```js
 // index.js
 
-
 import React from 'react'
 import { render } from 'react-dom'
 import { Hello4, hello3, hello2, hello } from './hello'
