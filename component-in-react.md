@@ -41,7 +41,7 @@ const RenderElement = () => {
 
 ## Input を受けつける
 
-ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component としてを作成してみましょう。
+ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component とを作成してみましょう。
 
 Component に入力される値は、`<FunctionalComponent name="Nakanishi" music="Jazz" />` のように、attribute と同じ形で渡します。
 
