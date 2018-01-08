@@ -11,13 +11,25 @@ Component とは、input (入力) を受け取って、それを元に Operation
 ## React における Component
 
 ```js
-const justFunction = () => {
+const renderElement = () => {
   return (
     <div>
       Name: Music:
     </div>
   )
 }
+
+// renderElement()
+
+const RenderElement = () => {
+  return (
+    <div>
+      Name: Music:
+    </div>
+  )
+}
+
+// <RenderElement />
 ```
 
 
