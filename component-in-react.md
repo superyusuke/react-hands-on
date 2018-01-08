@@ -88,7 +88,7 @@ name = 'Nakanishi'
 music = 'Jazz'
 ```
 
-`({})` タイプの引数の受け取り方
+### `({})` タイプの引数の受け取り方
 
 ```js
 const FunctionalComponent2 = ({ name, music }) => {
