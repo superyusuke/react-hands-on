@@ -44,6 +44,5 @@ render(
   <ClassComponent name="Nakanishi" music="Jazz" />,
   document.getElementById('root')
 )
-
 ```
 
