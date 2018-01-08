@@ -84,7 +84,7 @@ render(
 また、`({name, music})` として引数を受け取ると、直接、`name` と `music` にオブジェクトが展開して代入されます。
 
 ```js
-name = 'Nakanishi',
+name = 'Nakanishi'
 music = 'Jazz'
 ```
 
