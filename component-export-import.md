@@ -4,6 +4,8 @@
 
 動画: https://youtu.be/Tlopqjj7ejU
 
+## 出力元
+
 ```js
 // FunctionalComponent.js
 
@@ -19,8 +21,6 @@ export const FunctionalComponent = props => {
 
 ```
 
-
-
 ```js
 // FunctionalComponent2.js
 
@@ -35,6 +35,8 @@ export const FunctionalComponent2 = ({ name, music }) => {
 }
 
 ```
+
+## 入力するファイル
 
 ```js
 // index.js
