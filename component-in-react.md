@@ -1,6 +1,6 @@
 # React における Component
 
-## Component とは
+## 一般的に Component とは
 
 ![](/assets/react-component.001.png)
 
