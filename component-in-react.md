@@ -41,7 +41,7 @@ const RenderElement = () => {
 
 ## Input を受けつける
 
-ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component とを作成してみましょう。
+ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component を作成してみましょう。
 
 Component に入力される値は、`<FunctionalComponent name="Nakanishi" music="Jazz" />` のように、attribute と同じ形で渡します。
 
@@ -60,6 +60,8 @@ props = {
 }
 ```
 
+受け取った値は `props.name` のようにオブジェクトにアクセスして使用します。
+
 ```js
 import React from 'react'
 import { render } from 'react-dom'
@@ -71,7 +73,16 @@ const FunctionalComponent = props => {
     </div>
   )
 }
+ 
+render(
+  <FunctionalComponent name="Nakanishi" music="Jazz" />,
+  document.getElementById('root')
+)
+```
 
+また、`({name, music})` として引数を受け取ると、直接、`name` と `music` にオブジェクトが展開して代入されます。
+
+```js
 const FunctionalComponent2 = ({ name, music }) => {
   return (
     <div>
@@ -79,13 +90,8 @@ const FunctionalComponent2 = ({ name, music }) => {
     </div>
   )
 }
- 
-render(
-  <FunctionalComponent name="Nakanishi" music="Jazz" />,
-  document.getElementById('root')
-)
 ```
-aaa
+
 
 ```js
 import React from 'react'
