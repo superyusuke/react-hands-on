@@ -42,4 +42,4 @@ render(<Hello4 />, document.getElementById('root'))
 
 ```
 
-## import は別ファイルに切り出した JavaScript(module) から変数、関数、クラス等を読み込むための
+## import は別ファイルに切り出した JavaScript(module) から変数、関数、クラス等を読み込むためのステイトメント
