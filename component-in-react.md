@@ -124,18 +124,8 @@ const FunctionalComponent2 = ({ name, music }) => {
   )
 }
 
-class ClassComponent extends React.Component {
-  render() {
-    return (
-      <div>
-        Name: {this.props.name}, Music: {this.props.music}
-      </div>
-    )
-  }
-}
-
 render(
-  <ClassComponent name="Nakanishi" music="Jazz" />,
+  <FunctionalComponent2 name="Nakanishi" music="Jazz" />,
   document.getElementById('root')
 )
 ```
