@@ -48,6 +48,6 @@ render(<Hello4 />, document.getElementById('root'))
 
 - 出力する側で変数、関数、クラスの前に `export` をつける。
 - 読み込む側では、`import` {名前} `from` 'ファイル名' とする。
-- この場合のファイル名は、hello のように、拡張子をつけなくていい。
+- この場合のファイル名は、`hello` のように、拡張子をつけなくていい。
 - 
 
