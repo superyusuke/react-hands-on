@@ -10,7 +10,7 @@ Component とは、input (入力) を受け取って、それを元に Operation
 
 ## React における Component
 
-まず React におけるコンポーネントは、基本的には React Element を返す 単なる  Function です。ただし、名前の冒頭を大文字にし、`<Component />` とカスタムタグのように使用します。
+まず React におけるコンポーネントは、基本的には React Element を返す単なる  Function です。ただし、ファンクションとは異なるのは、名前の冒頭が大文字でなければいけないことと、使用する際には `<Component />` とカスタムタグの記述することです。
 
 ```js
 const renderElement = () => {
