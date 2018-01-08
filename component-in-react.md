@@ -19,6 +19,7 @@ const renderElement = () => {
   )
 }
 
+// 関数なので以下のように実行して使う
 // renderElement()
 
 const RenderElement = () => {
@@ -29,6 +30,7 @@ const RenderElement = () => {
   )
 }
 
+// Component なので以下のようにタグを記述して使う
 // <RenderElement />
 ```
 
