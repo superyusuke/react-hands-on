@@ -1,12 +1,14 @@
 # React における Component
 
-コード: https://codesandbox.io/s/5x0yjq9n4p
+コード: [https://codesandbox.io/s/5x0yjq9n4p](https://codesandbox.io/s/5x0yjq9n4p)
+
+動画: https://youtu.be/iuakUXdAdHI
 
 ## 一般的に Component とは
 
 ![](/assets/react-component.001.png)
 
-Component とは、input (入力) を受け取って、それを元に Operation (なんらかの操作) をした結果を、Output (出力) する部品のこと。
+Component とは、input \(入力\) を受け取って、それを元に Operation \(なんらかの操作\) をした結果を、Output \(出力\) する部品のこと。
 
 これを組み合わせて、より大きなアプリケーションを構築する。
 
@@ -15,7 +17,6 @@ Component とは、input (入力) を受け取って、それを元に Operation
 React におけるコンポーネントは、基本的には React Element を返す単なる  Function です。ただし、ファンクションとは異なるのは、名前の冒頭が大文字でなければいけないことと、使用する際には `<Component />` とカスタムタグのように記述することです。
 
 ```js
-
 // 単なる関数
 const renderElement = () => {
   return (
@@ -76,7 +77,7 @@ const FunctionalComponent = props => {
     </div>
   )
 }
- 
+
 render(
   <FunctionalComponent name="Nakanishi" music="Jazz" />,
   document.getElementById('root')
@@ -85,14 +86,12 @@ render(
 
 ### `({})` タイプの引数の受け取り方
 
-
 また、`({name, music})` として引数を受け取ると、直接、`name` と `music` にオブジェクトが展開して代入されます。
 
 ```js
 name = 'Nakanishi'
 music = 'Jazz'
 ```
-
 
 ```js
 const FunctionalComponent2 = ({ name, music }) => {
@@ -131,4 +130,6 @@ render(
   document.getElementById('root')
 )
 ```
+
+
 
