@@ -1,5 +1,7 @@
 # React における Component
 
+コード: https://codesandbox.io/s/5x0yjq9n4p
+
 ## 一般的に Component とは
 
 ![](/assets/react-component.001.png)
