@@ -53,6 +53,7 @@ render(
 ```
 
 受け取った値は、コンポーネントの引数にオブジェクトとして入ってきます。
+
 ```js
 props = {
   name: 'Nakanishi',
@@ -81,6 +82,11 @@ render(
 ```
 
 また、`({name, music})` として引数を受け取ると、直接、`name` と `music` にオブジェクトが展開して代入されます。
+
+```js
+name = 'Nakanishi',
+music = 'Jazz'
+```
 
 ```js
 const FunctionalComponent2 = ({ name, music }) => {
