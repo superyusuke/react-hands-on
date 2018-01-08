@@ -1,5 +1,8 @@
 # Arrow function 2
 
+動画: https://youtu.be/JqBjW_nCgOk
+コード: https://codesandbox.io/s/nkq03xl2p
+
 ```js
 import React from 'react'
 import { render } from 'react-dom'
