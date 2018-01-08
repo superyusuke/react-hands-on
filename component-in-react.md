@@ -45,6 +45,13 @@ const RenderElement = () => {
 
 Component に入力される値は、`<FunctionalComponent name="Nakanishi" music="Jazz" />` のように、attribute と同じ形で渡します。
 
+```js
+render(
+  <FunctionalComponent name="Nakanishi" music="Jazz" />,
+  document.getElementById('root')
+)
+```
+
 受け取った値は、コンポーネントの引数にオブジェクトとして入ってきます。
 ```js
 props = {
