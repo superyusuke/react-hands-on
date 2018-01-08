@@ -81,6 +81,10 @@ render(
 )
 ```
 
+### `({})` タイプの引数の受け取り方
+
+
+
 また、`({name, music})` として引数を受け取ると、直接、`name` と `music` にオブジェクトが展開して代入されます。
 
 ```js
@@ -88,7 +92,6 @@ name = 'Nakanishi'
 music = 'Jazz'
 ```
 
-### `({})` タイプの引数の受け取り方
 
 ```js
 const FunctionalComponent2 = ({ name, music }) => {
