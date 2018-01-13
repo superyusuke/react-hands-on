@@ -9,5 +9,6 @@
 * [Arrow function 1](arrow-function.md)
 * [Arrow function 2](arrow-function-2.md)
 * [import, export, module](import-export-module.md)
+* [React Component](component-in-react.md)
 * [Component の export / import](component-export-import.md)
 
