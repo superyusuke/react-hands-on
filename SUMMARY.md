@@ -11,4 +11,5 @@
 * [import, export, module](import-export-module.md)
 * [React Component](component-in-react1.md)
 * [Component の export / import](component-export-import.md)
+* [Class Component  と Functional Component](class-component-functional-component.md)
 
