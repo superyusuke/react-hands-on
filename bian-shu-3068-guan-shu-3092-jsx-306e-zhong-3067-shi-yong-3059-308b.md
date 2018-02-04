@@ -27,7 +27,7 @@ render(reactElement, document.getElementById('root'))
 
 ```
 
-## 変数を使うためには使うためには　{} で囲む
+## 変数を使うためには　{} で囲む
 
 {} で囲んで、変数を入れれば JS の変数として認識される。
 
@@ -41,7 +41,7 @@ const reactElement = <h2>{title}</h2>
 {} の中は、JavaScript として認識されるので、関数も実行できる。
 
 ```js
-const reactElement = <h2>Math.random()</h2>
+const reactElement = <h2>{Math.random()}</h2>
 ```
 
 ```js
@@ -49,7 +49,7 @@ const returnStrings = () => {
   return '返された文字列です'
 }
 
-const reactElement = <h2>returnStrings()</h2>
+const reactElement = <h2>{returnStrings()}</h2>
 ```
 
 ## JSX は一つのタグしかだめ(子要素に複数タグがあるのはOK)
