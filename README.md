@@ -1,6 +1,6 @@
 # React Hands On 資料
 
-この資料は2018/2/3日に開催された「[もくもくテンプル React Hands On](https://frontend-temple.connpass.com/event/76735/)」のために作成した資料です。
+この資料は、第1回目を2018/2/3日に開催した「[もくもくテンプル React Hands On](https://frontend-temple.connpass.com/event/76735/)」のために作成した資料です。このハンズオンシリーズは全3回
 
 第二回はさらに技術的な難易度をあげて、3/3日に開催します。この資料を予習していただいてから参加するようにお願いします。
 
