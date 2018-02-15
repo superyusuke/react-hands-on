@@ -1,1 +1,1 @@
-# State をもった ReactComponent = React.Component
+# State をもった ReactComponent = React.Component = classComponent
