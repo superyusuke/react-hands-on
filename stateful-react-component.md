@@ -1,1 +1,1 @@
-# State をもった
+# State をもった ReactComponent = React.Component
