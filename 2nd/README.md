@@ -2,7 +2,7 @@
 
 ## TodoList の作成
 
-- state をもった ReactClassComponent の作成
+- state を持つことができる React.Component の作成
 - this.setState() による state の変更
 - Array.map による配列操作
 - Immutable な配列/オブジェクトの操作
