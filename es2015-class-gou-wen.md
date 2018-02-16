@@ -80,7 +80,7 @@ class Human() {
     this.age = age
   }
   
-  // constructor の外でメソッドは規定する
+  // constructor の外でメソッドは定義すること
   callMyProfile() {
     console.log(this.name + this.age)
   }
