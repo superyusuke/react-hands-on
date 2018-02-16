@@ -23,3 +23,12 @@ render(<Human />, document.getElementById("root"));
 
 ## React.Component を拡張 = extends する
 
+```js
+class Human extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+}
+
+
+```
