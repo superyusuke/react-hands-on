@@ -47,4 +47,6 @@ Tanaka.callMyProfile();
 class Human() {
   constructor() {}
 }
+
+const Nakanishi = new Human()
 ```
