@@ -71,3 +71,30 @@ render(<Human />, document.getElementById("root"));
 ```
 
 ## setState を用いて、state を更新する
+
+```js
+import React from "react";
+import { render } from "react-dom";
+
+class Human extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "Nakanishi" };
+  }
+
+  render() {
+    return <h2 onClick={this.onClickButton}>{this.state.name}</h2>;
+  }
+
+  onClickButton = () => {
+    // setState で state を更新する
+    // this.setState() の引数には、変更したい state の対象を
+    // オブジェクトで指定する
+    this.setState({ name: this.state.name + "さん" });
+  };
+}
+
+render(<Human />, document.getElementById("root"));
+
+```
+
