@@ -54,3 +54,16 @@ const Nakanishi = new Human()
 ```
 
 ## new でインスタンスを作成する際に、引数を渡し、インスタンスのプロパティにアサインする
+
+```js
+class Human() {
+  constructor(name, age) {
+    this.name = name
+    this.age = age
+  }
+}
+
+const Nakanishi = new Human()
+```
+
+
