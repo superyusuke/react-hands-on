@@ -41,8 +41,6 @@ render(<Human />, document.getElementById("root"));
 - JSX 内で使用される onClick, onChange, onSubmit に指定するメソッド(コールバック)は、= () => というアローファンクションに似た方式で書くこと。そうしないと this が意図しない対象をさすためにエラーとなる。
 
 
-
-
 ```js
 import React from "react";
 import { render } from "react-dom";
