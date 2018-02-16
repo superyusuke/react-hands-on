@@ -20,3 +20,6 @@ class Human extends React.Component {
 render(<Human />, document.getElementById("root"));
 
 ```
+
+## React.Component を拡張 = extends する
+
