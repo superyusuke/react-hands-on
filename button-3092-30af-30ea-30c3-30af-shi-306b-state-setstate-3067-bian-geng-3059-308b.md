@@ -70,4 +70,4 @@ render(<Human />, document.getElementById("root"));
 
 ```
 
-
+## setState を用いて、state を更新する
