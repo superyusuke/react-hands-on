@@ -38,9 +38,7 @@ render(<Human />, document.getElementById("root"));
 
 - h2 をクリックした時に、onClickButton というメソッドを実行させる。
 - クリックした時に何かをさせるには、onClick アトリビュートを用いる。
-- JSX 内で使用される onClick, onChange, onSubmit に指定するメソッド(コールバック)
-  // は、= () => というアローファンクションに似た方式で書くこと
-  // そうしないと this が意図しない対象をさすためにエラーとなる
+- JSX 内で使用される onClick, onChange, onSubmit に指定するメソッド(コールバック)は、= () => というアローファンクションに似た方式で書くこと。そうしないと this が意図しない対象をさすためにエラーとなる。
 
 
 
