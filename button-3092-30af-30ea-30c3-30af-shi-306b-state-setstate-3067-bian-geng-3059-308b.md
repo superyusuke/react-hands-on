@@ -3,6 +3,7 @@
 先ほど書いた App では、 state は用いているが、state を変更する仕組みはない。
 さらに this.setState() を用いて state を変更する仕組みを追加する。
 
+動画: [https://youtu.be/Xg0W0CaXCYE](https://youtu.be/Xg0W0CaXCYE)
 コード: [https://codesandbox.io/s/l52wlq708z](https://codesandbox.io/s/l52wlq708z)
 
 ```js
