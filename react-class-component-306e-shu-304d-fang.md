@@ -36,6 +36,9 @@ class Human extends React.Component {
 ```
 
 ## render メソッドは必須
+
+必ず render メソッドを持つこと。このメソッドがこのコンポーネントが render する内容となる。
+
 ```js
 class Human extends React.Component {
   constructor(props) {
