@@ -58,6 +58,7 @@ class Human extends React.Component {
   constructor(props) {
     super(props);
     // state のためには必ず this.state を使うこと
+    // またここには必ずオブジェクトをアサインすること
     this.state = { name: "Nakanishi" };
   }
 
