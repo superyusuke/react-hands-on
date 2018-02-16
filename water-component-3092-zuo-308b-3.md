@@ -30,6 +30,7 @@ class Water extends React.Component {
     return "Water";
   }
 
+  // 与えるクラスネームを動的に変更するためのメソッド
   getWaterClass(temp) {
     if (temp <= 0) {
       return "ice";
