@@ -4,6 +4,8 @@
 
 ## 与えるクラスネームも動的に変更する
 
+
+index.js
 ```js
 import React from "react";
 import { render } from "react-dom";
