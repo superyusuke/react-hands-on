@@ -12,6 +12,7 @@
 import React from "react";
 import { render } from "react-dom";
 
+// extends を忘れずに
 class Water extends React.Component {
   constructor(props) {
     super(props);
