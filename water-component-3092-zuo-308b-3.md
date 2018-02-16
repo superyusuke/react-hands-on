@@ -50,6 +50,8 @@ class Water extends React.Component {
         <button onClick={this.onButtonPlus10}>+10</button>
         <button onClick={this.onButtonMinus}>-1</button>
         <button onClick={this.onButtonMinus10}>-10</button>
+        
+        // クラスを動的に変更する 
         <h2 className={this.getWaterClass(this.state.temp)}>
           phase: {this.getWaterState(this.state.temp)}, {this.state.temp} ℃
         </h2>
