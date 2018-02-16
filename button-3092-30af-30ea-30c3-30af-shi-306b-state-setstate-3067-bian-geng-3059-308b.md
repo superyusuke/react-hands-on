@@ -3,6 +3,8 @@
 先ほど書いた App では、 state は用いているが、state を変更する仕組みはない。
 さらに this.setState() を用いて state を変更する仕組みを追加する。
 
+コード: [https://codesandbox.io/s/l52wlq708z](https://codesandbox.io/s/l52wlq708z)
+
 ```js
 import React from "react";
 import { render } from "react-dom";
@@ -31,3 +33,33 @@ class Human extends React.Component {
 render(<Human />, document.getElementById("root"));
 
 ```
+
+## onClick アトリビュートでクリック時に何かを実行させる
+
+```js
+import React from "react";
+import { render } from "react-dom";
+
+class Human extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "Nakanishi" };
+  }
+
+  render() {
+    // onClick アトリビュートにコールバック(関数)を指定することで、
+    // クリック時にメソッドを実行させることができる
+    return <h2 onClick={this.onClickButton}>{this.state.name}</h2>;
+  }
+
+  // このメソッドを h2 クリック時に発動させる
+  onClickButton = () => {
+    alert('click')
+  };
+}
+
+render(<Human />, document.getElementById("root"));
+
+```
+
+
