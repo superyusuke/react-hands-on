@@ -67,4 +67,24 @@ const Nakanishi = new Human('Nakanishi', 33)
 console.log(Nakanishi.name + Nakanishi.age)
 ```
 
+## class が持つファンクション = class method を定義する
+
+```js
+class Human() {
+  constructor(name, age) {
+    this.name = name
+    this.age = age
+  }
+  
+  callMyProfile() {
+    console.log(this.name + this.age)
+  }
+}
+
+const Nakanishi = new Human('Nakanishi', 33)
+console.log(Nakanishi.name + Nakanishi.age)
+```
+
+
+
 
