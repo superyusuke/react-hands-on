@@ -1,5 +1,6 @@
 # Water Component を作る 1
 
+動画: [https://youtu.be/YXXQhy_YcbE](https://youtu.be/YXXQhy_YcbE)
 コード: [https://codesandbox.io/s/n3pn5mqnj](https://codesandbox.io/s/n3pn5mqnj)
 
 冒頭で紹介した Water コンポーネントを作成していきます。
