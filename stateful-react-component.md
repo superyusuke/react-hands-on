@@ -1,6 +1,6 @@
-# State を持てる ReactComponent = React.Component = ClassComponent
+# State を持てる ReactComponent = StatefulComponent = React.Component = ClassComponent 
 
-今まで書いてきた React の Component は、関数によるもので、state を内部に持つことができませんでした。
+今まで書いてきた React の Component は、関数を使って書くもので、親「コンポーネントから受け取った Props」を元に自身の内容を規定するコンポーネントでした。
 
 
 
