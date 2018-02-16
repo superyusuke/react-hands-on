@@ -76,3 +76,18 @@ class Water extends React.Component {
 render(<Water />, document.getElementById("root"));
 
 ```
+
+```css
+.ice {
+  background: blue;
+}
+
+.water {
+  background: teal;
+}
+
+.steam {
+  background: red;
+}
+
+```
