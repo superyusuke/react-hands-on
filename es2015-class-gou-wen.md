@@ -60,6 +60,8 @@ const Nakanishi = new Human()
 ```js
 class Human() {
   constructor(name, age) {
+    // this は new で作成されたインスタンスを指す
+    // つまり自分自身
     this.name = name
     this.age = age
   }
