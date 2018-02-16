@@ -87,6 +87,7 @@ class Human() {
 }
 
 const Nakanishi = new Human('Nakanishi', 33)
+// クラスメソッドの呼び出し
 Nakanishi.callMyProfile()
 ```
 
