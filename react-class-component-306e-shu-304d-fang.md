@@ -63,6 +63,7 @@ class Human extends React.Component {
   }
 
   render() {
+    // state を参照する
     return <h2>{this.state.name}</h2>;
   }
 }
