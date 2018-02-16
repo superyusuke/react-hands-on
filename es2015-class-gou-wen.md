@@ -52,3 +52,5 @@ class Human() {
 
 const Nakanishi = new Human()
 ```
+
+## new でインスタンスを作成する際に、引数を渡し、インスタンスのプロパティにアサインする
