@@ -1,7 +1,6 @@
 # Button をクリック時に state をsetState で変更する
 
 先ほど書いた App では、 state は用いているが、state を変更する仕組みはない。
-
 さらに this.setState() を用いて state を変更する仕組みを追加する。
 
 ```js
