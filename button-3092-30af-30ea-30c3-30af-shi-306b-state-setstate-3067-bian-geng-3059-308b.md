@@ -74,7 +74,7 @@ render(<Human />, document.getElementById("root"));
 
 - this.setState() というメソッドを用いて、state を更新する。
 - このメソッドは自分では書いていないが、React.Component を extends (継承)した際に受け継がれたもの。
-- this.setState() の引数には、state のうち変更したいオブジェクトを指定する。
+- this.setState() の引数には、state のうち、変更したいオブジェクトを指定する。(上書きされる)
 
 
 ```js
