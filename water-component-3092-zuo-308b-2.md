@@ -1,6 +1,6 @@
 # Water Component を作る 2
 
-動画: 
+動画: [https://youtu.be/7B0tiLHj_c0](https://youtu.be/7B0tiLHj_c0)
 コード: https://codesandbox.io/s/n4qmwyp1n0
 
 ```js
