@@ -24,6 +24,7 @@ class Water extends React.Component {
   render() {
     return (
       <div>
+        // ボタンをクリックするとメソッドを発動
         <button onClick={this.onButtonPlus}>+</button>
         <button onClick={this.onButtonMinus}>-</button>
         <h2>{this.state.temp}</h2>
