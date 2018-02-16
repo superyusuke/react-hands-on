@@ -53,6 +53,9 @@ class Human extends React.Component {
   }
 
   // このメソッドを h2 クリック時に発動させる
+  // JSX の onClick, onChange, onSubmit に指定するメソッド(コールバック)
+  // は、= () => というアローファンクションに似た方式で書くこと
+  // そうしないと this が意図しない対象をさすためにエラーとなる
   onClickButton = () => {
     alert('click')
   };
