@@ -34,7 +34,7 @@ render(<Human />, document.getElementById("root"));
 
 ```
 
-## onClick アトリビュートでクリック時に何かを実行させる
+## onClick アトリビュートを用いて、クリック時に何かを実行させる
 
 ```js
 import React from "react";
