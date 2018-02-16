@@ -34,3 +34,18 @@ class Human extends React.Component {
   }
 }
 ```
+
+## render メソッドは必須
+```js
+class Human extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  
+  render() {
+    return <h2>Human</h2>
+  }
+}
+```
+
+
