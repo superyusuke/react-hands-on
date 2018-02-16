@@ -1,8 +1,7 @@
 # Water コンポーネントを作る 3
 
 動画: [https://youtu.be/oMQL2XEqb44](https://youtu.be/oMQL2XEqb44)
-コード: [https://codesandbox.io/s/j3y5421zzy](https://codesandbox.io/s/j3y5421zzy)
-
+コード: [https://codesandbox.io/s/rjykzo5y5m](https://codesandbox.io/s/rjykzo5y5m)
 ## 与えるクラスネームも動的に変更する
 
 
