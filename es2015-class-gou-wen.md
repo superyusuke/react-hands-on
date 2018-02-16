@@ -80,6 +80,7 @@ class Human() {
     this.age = age
   }
   
+  // constructor の外でメソッドは規定する
   callMyProfile() {
     console.log(this.name + this.age)
   }
