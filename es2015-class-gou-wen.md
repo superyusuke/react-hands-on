@@ -63,7 +63,7 @@ class Human() {
   }
 }
 
-const Nakanishi = new Human()
+const Nakanishi = new Human('Nakanishi', 33)
 ```
 
 
