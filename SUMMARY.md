@@ -15,4 +15,5 @@
 * [第二回](2nd/README.md)
   * [動的に変化するコンポーネント](bing-3001-shui-3001-zheng-qi-306b-bian-hua-3059-308b-30b3-30f3-30dd-30fc-30cd-30f3-30c8.md)
   * [stateful-react-component](stateful-react-component.md)
+* [ES2015 の class 構文](es2015-class-gou-wen.md)
 
