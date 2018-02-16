@@ -23,6 +23,8 @@ render(<Human />, document.getElementById("root"));
 
 ## React.Component を拡張 = extends する
 
+class 宣言から始まり constructor を持つ点は同じだが、加えて `extends React.Component` する必要がある。
+
 ```js
 class Human extends React.Component {
   constructor(props) {
