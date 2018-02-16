@@ -36,6 +36,12 @@ render(<Human />, document.getElementById("root"));
 
 ## onClick アトリビュートを用いて、クリック時に何かを実行させる
 
+- h2 をクリックした時に、onClickButton というメソッドを実行させる。
+- クリックした時に何かをさせるには、onClick アトリビュートを用いる。
+- JSX
+
+
+
 ```js
 import React from "react";
 import { render } from "react-dom";
@@ -53,7 +59,7 @@ class Human extends React.Component {
   }
 
   // このメソッドを h2 クリック時に発動させる
-  // JSX の onClick, onChange, onSubmit に指定するメソッド(コールバック)
+  // JSX 内で使用される onClick, onChange, onSubmit に指定するメソッド(コールバック)
   // は、= () => というアローファンクションに似た方式で書くこと
   // そうしないと this が意図しない対象をさすためにエラーとなる
   onClickButton = () => {
