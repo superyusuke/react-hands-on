@@ -50,6 +50,7 @@ class Human() {
   constructor() {}
 }
 
+// new 演算子を使って class からインスタンスを作成する
 const Nakanishi = new Human()
 ```
 
