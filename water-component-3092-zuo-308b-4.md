@@ -57,6 +57,7 @@ class Water extends React.Component {
   }
 
   onButtonPlus = () => {
+    // 毎回 this.state.temp と書かなくてもいいように変数に取り出す
     const { temp } = this.state;
     this.setState({ temp: temp + 1 });
   };
