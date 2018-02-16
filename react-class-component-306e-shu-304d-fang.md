@@ -51,7 +51,7 @@ class Human extends React.Component {
 }
 ```
 
-## state を持つ
+## state を与える
 
 ```js
 class Human extends React.Component {
