@@ -46,6 +46,7 @@ Tanaka.callMyProfile();
 何もプロパティを持たない Human というクラスの作成と、Human クラスからインスタンスを作成し、Nakanishi という変数に代入する方法。
 
 ```js
+// クラスを定義する
 class Human() {
   constructor() {}
 }
