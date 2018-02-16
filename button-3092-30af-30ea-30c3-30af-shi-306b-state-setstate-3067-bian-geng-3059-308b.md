@@ -15,6 +15,8 @@ class Human extends React.Component {
   }
 
   render() {
+    // onClick アトリビュートにコールバック(関数)を指定することで、
+    // クリック時にメソッドを実行させることができる
     return <h2 onClick={this.onClickButton}>{this.state.name}</h2>;
   }
 
