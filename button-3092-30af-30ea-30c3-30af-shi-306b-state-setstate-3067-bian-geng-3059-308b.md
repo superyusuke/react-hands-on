@@ -20,7 +20,11 @@ class Human extends React.Component {
     return <h2 onClick={this.onClickButton}>{this.state.name}</h2>;
   }
 
+  // このメソッドを h2 クリック時に発動させる
   onClickButton = () => {
+    // setState で state を更新する
+    // this.setState() の引数には、変更したい state の対象を
+    // オブジェクトで指定する
     this.setState({ name: this.state.name + "さん" });
   };
 }
