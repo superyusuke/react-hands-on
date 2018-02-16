@@ -7,3 +7,36 @@
 このコンポーネントは、state で自身の温度を管理し、この温度によって表示する内容と、スタイルを更新する React App です。
 
 温度は、+- ボタンで変更します。
+
+```js
+import React from "react";
+import { render } from "react-dom";
+
+class Water extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { temp: 15 };
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.onButtonPlus}>+</button>
+        <button onClick={this.onButtonMinus}>-</button>
+        <h2>{this.state.temp}</h2>
+      </div>
+    );
+  }
+
+  onButtonPlus = () => {
+    this.setState({ temp: this.state.temp + 1 });
+  };
+
+  onButtonMinus = () => {
+    this.setState({ temp: this.state.temp - 1 });
+  };
+}
+
+render(<Water />, document.getElementById("root"));
+
+```
