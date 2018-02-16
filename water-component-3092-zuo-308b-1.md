@@ -31,7 +31,8 @@ class Water extends React.Component {
       </div>
     );
   }
-
+  
+  // アローファンクション風の書き方を忘れずに
   onButtonPlus = () => {
     this.setState({ temp: this.state.temp + 1 });
   };
