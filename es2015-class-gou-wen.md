@@ -41,7 +41,10 @@ Tanaka.callMyProfile();
 
 ```
 
-## 
+## 最小限のクラスの作成
 
 ```js
+class Human() {
+  constructor() {}
+}
 ```
