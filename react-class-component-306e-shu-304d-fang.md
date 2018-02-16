@@ -33,5 +33,4 @@ class Human extends React.Component {
     super(props);
   }
 }
-
 ```
