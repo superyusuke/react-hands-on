@@ -16,6 +16,8 @@ import { render } from "react-dom";
 class Water extends React.Component {
   constructor(props) {
     super(props);
+    
+    // 温度のための state 
     this.state = { temp: 15 };
   }
 
