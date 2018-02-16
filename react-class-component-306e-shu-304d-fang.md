@@ -51,4 +51,18 @@ class Human extends React.Component {
 }
 ```
 
+## state を持つ
+
+```js
+class Human extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "Nakanishi" };
+  }
+
+  render() {
+    return <h2>{this.state.name}</h2>;
+  }
+}
+```
 
