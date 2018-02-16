@@ -13,6 +13,7 @@ class Water extends React.Component {
     this.state = { temp: 15 };
   }
 
+  // 表示する内容を温度によって変えるためのメソッド
   getWaterState(temp) {
     if (temp <= 0) {
       return "Ice";
