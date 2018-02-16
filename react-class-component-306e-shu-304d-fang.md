@@ -5,7 +5,6 @@
 ```js 
 import React from "react";
 import { render } from "react-dom";
-import Hello from "./Hello";
 
 class Human extends React.Component {
   constructor(props) {
