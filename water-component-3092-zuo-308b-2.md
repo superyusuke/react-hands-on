@@ -29,11 +29,13 @@ class Water extends React.Component {
   render() {
     return (
       <div>
+        // 一度づつあげてもラチがあかないので一気に10変更できるように
         <button onClick={this.onButtonPlus}>+1</button>
         <button onClick={this.onButtonPlus10}>+10</button>
         <button onClick={this.onButtonMinus}>-1</button>
         <button onClick={this.onButtonMinus10}>-10</button>
         <h2>
+          // this.getWaterState で氷なのか水なのか蒸気なのかを判定させて表示
           phase: {this.getWaterState(this.state.temp)}, {this.state.temp} ℃
         </h2>
       </div>
