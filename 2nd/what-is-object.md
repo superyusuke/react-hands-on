@@ -1,5 +1,7 @@
 # そもそもオブジェクトとは何か
 
+コード: [https://codesandbox.io/s/olzjvymrrz](https://codesandbox.io/s/olzjvymrrz)
+
 ```js
 // object の役割は配列に似ている
 // 複数の値を入れることができる「入れ物」のような仕組みを提供する
