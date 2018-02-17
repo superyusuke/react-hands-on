@@ -21,6 +21,6 @@
   * [Water Component を作る 2](2nd/water-component-3092-zuo-308b-2.md)
   * [Water Component を作る 3](2nd/water-component-3092-zuo-308b-3.md)
   * [Water Component を作る 4](2nd/water-component-3092-zuo-308b-4.md)
-  * そもそもオブジェクトとは
+  * [そもそもオブジェクトとは](2nd/what-is-object.md)
 * [todoLost](todolost.md)
 
