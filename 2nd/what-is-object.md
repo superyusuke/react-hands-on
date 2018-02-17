@@ -1,5 +1,6 @@
 # そもそもオブジェクトとは何か
 
+動画: [https://youtu.be/sNUxbra52Tw](https://youtu.be/sNUxbra52Tw)
 コード: [https://codesandbox.io/s/olzjvymrrz](https://codesandbox.io/s/olzjvymrrz)
 
 ```js
