@@ -29,6 +29,8 @@ console.log(新しい配列);
 
 ```
 
+## filter
+
 filter の動画: [https://youtu.be/RCy2hz0xC-Y](https://youtu.be/RCy2hz0xC-Y)
 filter のコード: [https://codesandbox.io/s/1q39zvq6j](https://codesandbox.io/s/1q39zvq6j)
 
