@@ -26,5 +26,39 @@ console.log(新しい配列);
 
 ```
 
-filter のコード:
+filter のコード: [https://codesandbox.io/s/1q39zvq6j](https://codesandbox.io/s/1q39zvq6j)
 
+```js
+const array1 = ["nakanishi", "Hurukawa", "Tanaka"];
+
+const newArray1 = array1.filter((o, i) => {
+  // true が return された時の配列の中身だけが残されて
+  // 新しい配列に使われる
+  return o === "nakanishi";
+});
+
+console.log(newArray1);
+
+const newArray2 = array1.filter((o, i) => {
+  // true が返された時の配列の中身だけが使われる
+  // ここでは文字の長さが7より大きい時のみ使われる
+  return o.length > 7;
+});
+
+console.log(newArray2);
+
+// 具体的な使用例
+
+const array3 = [
+  { name: "nakanishi", engineer: true },
+  { name: "yoshida", engineer: false },
+  { name: "sasaki", engineer: true },
+  { name: "furukawa", engineer: false }
+];
+
+const newArray3 = array3.filter((o, i) => {
+  return o.engineer;
+});
+
+console.log(newArray3);
+```
