@@ -1,6 +1,6 @@
 # map と filter
 
-mapのコード: [https://codesandbox.io/s/4l3y7l14j7 ](https://codesandbox.io/s/4l3y7l14j7)
+map のコード: [https://codesandbox.io/s/4l3y7l14j7 ](https://codesandbox.io/s/4l3y7l14j7)
 
 ```js
 const array1 = ["nakanishi", "Hurukawa", "Tanaka"];
@@ -25,3 +25,6 @@ const 新しい配列 = 配列.map((各配列の値, 順番) => {
 console.log(新しい配列);
 
 ```
+
+filter のコード:
+
