@@ -23,5 +23,6 @@
   * [Water Component を作る 4](2nd/water-component-3092-zuo-308b-4.md)
   * [そもそもオブジェクトとは](2nd/what-is-object.md)
   * [map と filter](2nd/map-and-filter.md)
+  * [実例: map と filter](2nd/example-of-map-and-filter.md)
 * [todoLost](todolost.md)
 
