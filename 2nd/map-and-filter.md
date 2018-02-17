@@ -1,5 +1,6 @@
 # map と filter
 
+map の動画: [https://youtu.be/rUwpPZSw9Dg](https://youtu.be/rUwpPZSw9Dg)
 map のコード: [https://codesandbox.io/s/4l3y7l14j7 ](https://codesandbox.io/s/4l3y7l14j7)
 
 ```js
@@ -26,6 +27,7 @@ console.log(新しい配列);
 
 ```
 
+filter の動画: [https://youtu.be/RCy2hz0xC-Y](https://youtu.be/RCy2hz0xC-Y)
 filter のコード: [https://codesandbox.io/s/1q39zvq6j](https://codesandbox.io/s/1q39zvq6j)
 
 ```js
