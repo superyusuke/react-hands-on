@@ -13,7 +13,7 @@
   * [React Component](1st/component-in-react1.md)
   * [Component の export / import](1st/component-export-import.md)
 * [第二回](2nd/README.md)
-  * [動的に変化するコンポーネント](bing-3001-shui-3001-zheng-qi-306b-bian-hua-3059-308b-30b3-30f3-30dd-30fc-30cd-30f3-30c8.md)
+  * [動的に変化するコンポーネント](2nd/bing-3001-shui-3001-zheng-qi-306b-bian-hua-3059-308b-30b3-30f3-30dd-30fc-30cd-30f3-30c8.md)
   * [ES2015 の class 構文](es2015-class-gou-wen.md)
   * [React Class Component の書き方](react-class-component-306e-shu-304d-fang.md)
   * [Button をクリック時に state をsetState で変更する](button-3092-30af-30ea-30c3-30af-shi-306b-state-setstate-3067-bian-geng-3059-308b.md)
