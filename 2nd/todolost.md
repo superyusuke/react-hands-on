@@ -21,3 +21,8 @@
 
 動画: [https://youtu.be/01NPuE8yl0E](https://youtu.be/01NPuE8yl0E)
 コード: [https://codesandbox.io/s/n00olyox7l](https://codesandbox.io/s/n00olyox7l)
+
+## 5.リストを削除するメソッドを作り List コンポーネントに渡す
+
+動画:
+コード:
