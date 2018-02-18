@@ -7,7 +7,7 @@
 動画: [https://youtu.be/UF_H85Thpu0](https://youtu.be/UF_H85Thpu0)
 コード: [https://codesandbox.io/s/42kn8p7nqx](https://codesandbox.io/s/42kn8p7nqx)
 
-## 2.
+## 2.state に todo 一覧のための状態と、次に追加するリストのIDのための状態を持たせる
 
 動画: [https://youtu.be/FbGS_c9SWoQ](https://youtu.be/FbGS_c9SWoQ)
 コード: [https://codesandbox.io/s/oq2v27v3z6](https://codesandbox.io/s/oq2v27v3z6)
