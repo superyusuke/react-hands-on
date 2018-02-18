@@ -24,5 +24,5 @@
 
 ## 5.リストを削除するメソッドを作り List コンポーネントに渡す
 
-動画:
-コード:
+動画: [https://youtu.be/UNLy4a_u_sc](https://youtu.be/UNLy4a_u_sc)
+コード: [https://codesandbox.io/s/wnqpyyjv8](https://codesandbox.io/s/wnqpyyjv8)
