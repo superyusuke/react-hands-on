@@ -11,3 +11,8 @@
 
 動画: [https://youtu.be/FbGS_c9SWoQ](https://youtu.be/FbGS_c9SWoQ)
 コード: [https://codesandbox.io/s/oq2v27v3z6](https://codesandbox.io/s/oq2v27v3z6)
+
+## 3.AddTodo コンポーネントの from と input と submit を作る
+
+動画: [https://youtu.be/38m7SzZMdUo](https://youtu.be/38m7SzZMdUo)
+コード: [https://codesandbox.io/s/yq72kqvk8v](https://codesandbox.io/s/yq72kqvk8v)
