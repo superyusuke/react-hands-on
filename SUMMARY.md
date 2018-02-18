@@ -24,5 +24,5 @@
   * [そもそもオブジェクトとは](2nd/what-is-object.md)
   * [map と filter](2nd/map-and-filter.md)
   * [実例: map と filter](2nd/example-of-map-and-filter.md)
-  * [todoLost](2nd/todolost.md)
+  * [TodoApp](2nd/todolost.md)
 
