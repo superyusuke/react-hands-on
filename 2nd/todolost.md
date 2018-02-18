@@ -16,3 +16,8 @@
 
 動画: [https://youtu.be/38m7SzZMdUo](https://youtu.be/38m7SzZMdUo)
 コード: [https://codesandbox.io/s/yq72kqvk8v](https://codesandbox.io/s/yq72kqvk8v)
+
+## 4.state.todos を変更する addTodo というメソッドを作成し、AddTodo コンポーネントに渡す
+
+動画: [https://youtu.be/01NPuE8yl0E](https://youtu.be/01NPuE8yl0E)
+コード: [https://codesandbox.io/s/n00olyox7l](https://codesandbox.io/s/n00olyox7l)
