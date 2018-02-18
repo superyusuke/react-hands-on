@@ -2,6 +2,10 @@
 
 ![](/assets/todoApp.001.png)
 
+- ポイントは一番親になる TodoApp に全ての State を管理させる
+- これを変更するメソッド (addTodo,deleteTodo) を作る
+- これらのメソッドを子コンポーネントに渡すことで state を操作する
+
 ## 1.まずはコンポーネントを配置する
 
 動画: [https://youtu.be/UF_H85Thpu0](https://youtu.be/UF_H85Thpu0)
